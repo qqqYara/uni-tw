@@ -1,0 +1,382 @@
+//---------------------------------------------------------------------------
+	>>> form Page :
+	---------------------------------------------------------------------------
+
+extends ./template/main
+
+block variables
+block content
+
+
+	section.form-screen
+		.container
+			.top
+				h1
+					| Select Patient or 
+					span Add New
+
+				form
+					.form-row
+						label(fot="select-patient") 1. Patient
+						select.select#select-patient
+							option 
+							option Lorem Ipsum
+							option Ipsum Lorem 
+							option Ip Lorem sum
+					.form-row
+						label(fot="select-document") 2. Select Document
+						select.select#select-document
+							option 
+							option Lorem Ipsum
+							option Ipsum Lorem 
+							option Ip Lorem sum
+					input(type="submit" value="Send Document")
+
+			.history-tabs
+				.tabs_navigation
+					.nav-item.nav-draft.active
+						| Draft
+						span.amount-draft 5043
+					.nav-item.nav-sent
+						| Sent
+						span.amount-sent 196
+					.tabs_content
+						.content-item.content-draft.active 
+							.report-item
+								.short-description
+									ul.list-item
+										li.type
+											span.value Test Export Type
+									ul.list-item
+										li.full_name
+											span.value Laurence Dinwiddie Fon Junior
+									ul.list-item
+										li.bday_date 
+											span.name Date of birth:
+											span.value 06.11.1994
+										li.email
+											span.value laurence.dinwiddie@gmail.com
+									ul.list-item
+										li.draft-on draft on
+										li.draft-on 
+											span.value 24.06.2019, 07:20
+									ul.list-item
+										li.draft-id
+											span.name.value ID: 24062021
+										
+								.full-description
+									ul.list-item
+										li.report 
+											span.name BAG Report: 
+											.status.waiting Waiting
+										li.type
+											span.name Type: 
+											span.value Test Export Type
+										li.draft_date
+											span.name Date: 
+											span.value draft on 24.06.2019, 07:20
+
+									ul.list-item
+										li.draft-id
+											span.name ID:
+											span.value 24062021 
+										li.full_name
+											span.name Full name:
+											span.value Laurence Dinwiddie Fon Junior
+										li.bday_date
+											span.name Age: 
+											span.value 32
+											span.name Date of birth: 
+											span.value 06.11.1994
+										li.email
+											span.name Email:
+											span.value laurence.dinwiddie@gmail.com
+								
+								.send-btn
+									span Send
+									<svg width="16" height="12" viewBox="0 0 16 12" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M12.17 7L8.59 10.59L10 12L16 6L10 0L8.59 1.41L12.17 5H0V7H12.17Z" fill="#5E7EF2"/></svg>
+								.sitcher
+									<svg class="arrow-down" width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M6 9L10.2426 13.2426L14.4853 9" stroke="#0DD8CE" stroke-width="2" stroke-linecap="round"/></svg>
+									<svg class="arrow-up" width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg"><rect width="20" height="20" rx="10" transform="matrix(1 0 0 -1 0 20)" fill="#0DD8CE"/><path d="M6 12L10.2426 7.75736L14.4853 12" stroke="white" stroke-width="2" stroke-linecap="round"/></svg>
+							.report-item
+								.short-description
+									ul.list-item
+										li.type
+											span.value Test Export Type
+									ul.list-item
+										li.full_name
+											span.value Laurence Dinwiddie Fon Junior
+									ul.list-item
+										li.bday_date 
+											span.name Date of birth:
+											span.value 06.11.1994
+										li.email
+											span.value laurence.dinwiddie@gmail.com
+									ul.list-item
+										li.draft-on draft on
+										li.draft-on 
+											span.value 24.06.2019, 07:20
+									ul.list-item
+										li.draft-id
+											span.name.value ID: 24062021
+										
+								.full-description
+									ul.list-item
+										li.report 
+											span.name BAG Report: 
+											.status.waiting Waiting
+										li.type
+											span.name Type: 
+											span.value Test Export Type
+										li.draft_date
+											span.name Date: 
+											span.value draft on 24.06.2019, 07:20
+
+									ul.list-item
+										li.draft-id
+											span.name ID:
+											span.value 24062021 
+										li.full_name
+											span.name Full name:
+											span.value Laurence Dinwiddie Fon Junior
+										li.bday_date
+											span.name Age: 
+											span.value 32
+											span.name Date of birth: 
+											span.value 06.11.1994
+										li.email
+											span.name Email:
+											span.value laurence.dinwiddie@gmail.com
+								
+								.send-btn
+									span Send
+									<svg width="16" height="12" viewBox="0 0 16 12" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M12.17 7L8.59 10.59L10 12L16 6L10 0L8.59 1.41L12.17 5H0V7H12.17Z" fill="#5E7EF2"/></svg>
+								.sitcher
+									<svg class="arrow-down" width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M6 9L10.2426 13.2426L14.4853 9" stroke="#0DD8CE" stroke-width="2" stroke-linecap="round"/></svg>
+									<svg class="arrow-up" width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg"><rect width="20" height="20" rx="10" transform="matrix(1 0 0 -1 0 20)" fill="#0DD8CE"/><path d="M6 12L10.2426 7.75736L14.4853 12" stroke="white" stroke-width="2" stroke-linecap="round"/></svg>
+							.report-item
+								.short-description
+									ul.list-item
+										li.type
+											span.value Test Export Type
+									ul.list-item
+										li.full_name
+											span.value Laurence Dinwiddie Fon Junior
+									ul.list-item
+										li.bday_date 
+											span.name Date of birth:
+											span.value 06.11.1994
+										li.email
+											span.value laurence.dinwiddie@gmail.com
+									ul.list-item
+										li.draft-on draft on
+										li.draft-on 
+											span.value 24.06.2019, 07:20
+									ul.list-item
+										li.draft-id
+											span.name.value ID: 24062021
+										
+								.full-description
+									ul.list-item
+										li.report 
+											span.name BAG Report: 
+											.status.waiting Waiting
+										li.type
+											span.name Type: 
+											span.value Test Export Type
+										li.draft_date
+											span.name Date: 
+											span.value draft on 24.06.2019, 07:20
+
+									ul.list-item
+										li.draft-id
+											span.name ID:
+											span.value 24062021 
+										li.full_name
+											span.name Full name:
+											span.value Laurence Dinwiddie Fon Junior
+										li.bday_date
+											span.name Age: 
+											span.value 32
+											span.name Date of birth: 
+											span.value 06.11.1994
+										li.email
+											span.name Email:
+											span.value laurence.dinwiddie@gmail.com
+								
+								.send-btn
+									span Send
+									<svg width="16" height="12" viewBox="0 0 16 12" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M12.17 7L8.59 10.59L10 12L16 6L10 0L8.59 1.41L12.17 5H0V7H12.17Z" fill="#5E7EF2"/></svg>
+								.sitcher
+									<svg class="arrow-down" width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M6 9L10.2426 13.2426L14.4853 9" stroke="#0DD8CE" stroke-width="2" stroke-linecap="round"/></svg>
+									<svg class="arrow-up" width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg"><rect width="20" height="20" rx="10" transform="matrix(1 0 0 -1 0 20)" fill="#0DD8CE"/><path d="M6 12L10.2426 7.75736L14.4853 12" stroke="white" stroke-width="2" stroke-linecap="round"/></svg>
+							.report-item
+								.short-description
+									ul.list-item
+										li.type
+											span.value Test Export Type
+									ul.list-item
+										li.full_name
+											span.value Laurence Dinwiddie Fon Junior
+									ul.list-item
+										li.bday_date 
+											span.name Date of birth:
+											span.value 06.11.1994
+										li.email
+											span.value laurence.dinwiddie@gmail.com
+									ul.list-item
+										li.draft-on draft on
+										li.draft-on 
+											span.value 24.06.2019, 07:20
+									ul.list-item
+										li.draft-id
+											span.name.value ID: 24062021
+										
+								.full-description
+									ul.list-item
+										li.report 
+											span.name BAG Report: 
+											.status.waiting Waiting
+										li.type
+											span.name Type: 
+											span.value Test Export Type
+										li.draft_date
+											span.name Date: 
+											span.value draft on 24.06.2019, 07:20
+
+									ul.list-item
+										li.draft-id
+											span.name ID:
+											span.value 24062021 
+										li.full_name
+											span.name Full name:
+											span.value Laurence Dinwiddie Fon Junior
+										li.bday_date
+											span.name Age: 
+											span.value 32
+											span.name Date of birth: 
+											span.value 06.11.1994
+										li.email
+											span.name Email:
+											span.value laurence.dinwiddie@gmail.com
+								
+								.send-btn
+									span Send
+									<svg width="16" height="12" viewBox="0 0 16 12" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M12.17 7L8.59 10.59L10 12L16 6L10 0L8.59 1.41L12.17 5H0V7H12.17Z" fill="#5E7EF2"/></svg>
+								.sitcher
+									<svg class="arrow-down" width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M6 9L10.2426 13.2426L14.4853 9" stroke="#0DD8CE" stroke-width="2" stroke-linecap="round"/></svg>
+									<svg class="arrow-up" width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg"><rect width="20" height="20" rx="10" transform="matrix(1 0 0 -1 0 20)" fill="#0DD8CE"/><path d="M6 12L10.2426 7.75736L14.4853 12" stroke="white" stroke-width="2" stroke-linecap="round"/></svg>
+							.report-item
+								.short-description
+									ul.list-item
+										li.type
+											span.value Test Export Type
+									ul.list-item
+										li.full_name
+											span.value Laurence Dinwiddie Fon Junior
+									ul.list-item
+										li.bday_date 
+											span.name Date of birth:
+											span.value 06.11.1994
+										li.email
+											span.value laurence.dinwiddie@gmail.com
+									ul.list-item
+										li.draft-on draft on
+										li.draft-on 
+											span.value 24.06.2019, 07:20
+									ul.list-item
+										li.draft-id
+											span.name.value ID: 24062021
+										
+								.full-description
+									ul.list-item
+										li.report 
+											span.name BAG Report: 
+											.status.waiting Waiting
+										li.type
+											span.name Type: 
+											span.value Test Export Type
+										li.draft_date
+											span.name Date: 
+											span.value draft on 24.06.2019, 07:20
+
+									ul.list-item
+										li.draft-id
+											span.name ID:
+											span.value 24062021 
+										li.full_name
+											span.name Full name:
+											span.value Laurence Dinwiddie Fon Junior
+										li.bday_date
+											span.name Age: 
+											span.value 32
+											span.name Date of birth: 
+											span.value 06.11.1994
+										li.email
+											span.name Email:
+											span.value laurence.dinwiddie@gmail.com
+								
+								.send-btn
+									span Send
+									<svg width="16" height="12" viewBox="0 0 16 12" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M12.17 7L8.59 10.59L10 12L16 6L10 0L8.59 1.41L12.17 5H0V7H12.17Z" fill="#5E7EF2"/></svg>
+								.sitcher
+									<svg class="arrow-down" width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M6 9L10.2426 13.2426L14.4853 9" stroke="#0DD8CE" stroke-width="2" stroke-linecap="round"/></svg>
+									<svg class="arrow-up" width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg"><rect width="20" height="20" rx="10" transform="matrix(1 0 0 -1 0 20)" fill="#0DD8CE"/><path d="M6 12L10.2426 7.75736L14.4853 12" stroke="white" stroke-width="2" stroke-linecap="round"/></svg>
+							.report-item
+								.short-description
+									ul.list-item
+										li.type
+											span.value Test Export Type
+									ul.list-item
+										li.full_name
+											span.value Laurence Dinwiddie Fon Junior
+									ul.list-item
+										li.bday_date 
+											span.name Date of birth:
+											span.value 06.11.1994
+										li.email
+											span.value laurence.dinwiddie@gmail.com
+									ul.list-item
+										li.draft-on draft on
+										li.draft-on 
+											span.value 24.06.2019, 07:20
+									ul.list-item
+										li.draft-id
+											span.name.value ID: 24062021
+										
+								.full-description
+									ul.list-item
+										li.report 
+											span.name BAG Report: 
+											.status.waiting Waiting
+										li.type
+											span.name Type: 
+											span.value Test Export Type
+										li.draft_date
+											span.name Date: 
+											span.value draft on 24.06.2019, 07:20
+
+									ul.list-item
+										li.draft-id
+											span.name ID:
+											span.value 24062021 
+										li.full_name
+											span.name Full name:
+											span.value Laurence Dinwiddie Fon Junior
+										li.bday_date
+											span.name Age: 
+											span.value 32
+											span.name Date of birth: 
+											span.value 06.11.1994
+										li.email
+											span.name Email:
+											span.value laurence.dinwiddie@gmail.com
+								
+								.send-btn
+									span Send
+									<svg width="16" height="12" viewBox="0 0 16 12" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M12.17 7L8.59 10.59L10 12L16 6L10 0L8.59 1.41L12.17 5H0V7H12.17Z" fill="#5E7EF2"/></svg>
+								.sitcher
+									<svg class="arrow-down" width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M6 9L10.2426 13.2426L14.4853 9" stroke="#0DD8CE" stroke-width="2" stroke-linecap="round"/></svg>
+									<svg class="arrow-up" width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg"><rect width="20" height="20" rx="10" transform="matrix(1 0 0 -1 0 20)" fill="#0DD8CE"/><path d="M6 12L10.2426 7.75736L14.4853 12" stroke="white" stroke-width="2" stroke-linecap="round"/></svg>
+
+						.content-item.content-sent Lorem ipsum
