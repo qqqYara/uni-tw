@@ -5,4 +5,5 @@ The main technologies used were:
 3. jQuery / JS
 
 Installation steps
+
 In main directory 'npm install' 'gulp' 
