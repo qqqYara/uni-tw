@@ -6,4 +6,7 @@ The main technologies used were:
 
 Installation steps
 
-In main directory 'npm install' 'gulp' 
+In main directory 
+
+-  npm install
+-  gulp 
